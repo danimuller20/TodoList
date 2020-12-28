@@ -114,6 +114,7 @@ function saveAllTasks() {
       classes.push(olList[index].classList.contains('completed'));
     }
     localStorage.setItem('myTodoList', JSON.stringify(myTasks));
+    alert('Suas tarefas foram salvas! 🤩');
   });
 }
 
